@@ -14,5 +14,5 @@ array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
 my_collect(array) do |name|
   first_name = name.split(" ").first
-  return first_name
+  first_name
 end
