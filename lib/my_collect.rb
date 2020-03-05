@@ -10,6 +10,8 @@ def my_collect(array)
   return new_collection
 end
 
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+
 my_collect(array) do |name|
   return name.split(" ").first
 end
